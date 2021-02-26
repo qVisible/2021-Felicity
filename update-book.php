@@ -2,6 +2,7 @@
 
 <head>
     <link href="style1.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="refresh" content="1;URL='show-books.php'">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
 
 
         if(mysqli_query($con,$sql)){
-            echo $title. ' record has been succesfully updated.';
+            echo 'Successful Update - '.$title. ' record has been succesfully updated.';
         }
         else{
             echo "Error updating record: " . mysqli_error($con);

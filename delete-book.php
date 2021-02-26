@@ -2,6 +2,8 @@
 
 <head>
     <link href="style1.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="refresh" content="1;URL='show-books.php'">
+
 </head>
 
 <body>
